@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+* {
+    outline: 2px solid red;
+    
+  }
+
+.header {
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     width: 100%;
+     background-color: #1F2937;
+     align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    color: #F9FaF8;
+    width: 3rem;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FaF8;
+}
