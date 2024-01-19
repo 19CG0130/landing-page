@@ -61,3 +61,37 @@ p {
     border-radius: 6px;
 }
 
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.informationTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.informationContent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.image {
+    max-width: 150px;
+    max-height: 150px;
+    flex-wrap: wrap;
+    outline: 4px solid rgb(61, 193, 211);
+    border-radius: 10px;
+}
+
+
+
