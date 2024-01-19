@@ -4,11 +4,6 @@
     font-family: 'Roboto', sans-serif;
   }
 
-* {
-    outline: 1px solid red;
-    
-  }
-
 .header {
      display: flex;
      justify-content: space-around;
@@ -115,9 +110,37 @@ p {
     padding-right: 8rem;
 }
 
+.singUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.signUpCall {
+    display: flex;
+    background-color: rgb(16, 123, 245);
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.signUpTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonSignUp {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
 footer {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     padding: 2rem;
 }
+
