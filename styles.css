@@ -93,5 +93,31 @@ p {
     border-radius: 10px;
 }
 
+.phraseSection {
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.phrase {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+}
 
+.phraseAutor {
+    text-align: end;
+    padding-right: 8rem;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
